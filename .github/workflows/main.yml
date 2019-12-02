@@ -9,7 +9,7 @@ jobs:
         uses: treosh/lighthouse-ci-action@v2
         with:
           urls:
-             https://priyankatalhan.github.io/Lighthouse-CI-Demo-Repo/index.html
+             https://priyankatalhan.github.io/Lighthouse-CI-Demo-Repo/
       - name: Save results
         uses: actions/upload-artifact@v1
         with:
